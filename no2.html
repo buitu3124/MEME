@@ -11,16 +11,20 @@
   <h1>IM GONNA TELL YOUR GF THAT YOU CHEATED</h1>
 
   <div class="button">
-    <a href="yes.html" class="button">Yes</a>
-    <a href="#" id="move-random" class="button">No</a>
+    <a href="yes.html" class="btn">Yes</a>
+    <a href="#" id="move-random" class="btn">No</a>
   </div>
 </div>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const moveRandom = document.getElementById('move-random');
+    const gifContainer = document.querySelector('.tenor-gif-embed');
     moveRandom.addEventListener('mouseover', () => {
-      const x = Math.random() * (window.innerWidth - moveRandom.offsetWidth);
-      const y = Math.random() * (window.innerHeight - moveRandom.offsetHeight);
+      const maxX = gifContainer.offsetWidth - moveRandom.offsetWidth;
+      const maxY = gifContainer.offsetHeight - moveRandom.offsetHeight;
+      const x = Math.random() * maxX;
+      const y = Math.random() * maxY;
+      moveRandom.style.position = 'absolute';
       moveRandom.style.left = `${x}px`;
       moveRandom.style.top = `${y}px`;
     });
