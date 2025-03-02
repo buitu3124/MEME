@@ -1,4 +1,5 @@
  # 題目：問朋友一起玩
+ 你願意成為我的雙排夥伴嗎？
 
 - 設計理念: 簡單
 - 目標跟風格: 有趣、幽默
@@ -201,5 +202,9 @@ body {
 ![GIF](https://github.com/user-attachments/assets/cd2e4126-0a58-445d-b4cc-2465dd1d5efb)
 ![GIF](https://github.com/user-attachments/assets/72b61baf-e303-491a-bccf-9030e5db2753)
 ![GIF](https://github.com/user-attachments/assets/ff5cb1b4-a7c8-4b01-b3e6-f54f4dea8310)
+
+# Commit
+![image](https://github.com/user-attachments/assets/00ec78dd-33c9-43d2-974f-0db0743c4a07)
+
 
 
