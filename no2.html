@@ -15,6 +15,16 @@
     <a href="#" id="move-random" class="button">No</a>
   </div>
 </div>
-<script src="./main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const moveRandom = document.getElementById('move-random');
+    moveRandom.addEventListener('mouseover', () => {
+      const x = Math.random() * (window.innerWidth - moveRandom.offsetWidth);
+      const y = Math.random() * (window.innerHeight - moveRandom.offsetHeight);
+      moveRandom.style.left = `${x}px`;
+      moveRandom.style.top = `${y}px`;
+    });
+  });
+</script>
 </body>
 </html>
